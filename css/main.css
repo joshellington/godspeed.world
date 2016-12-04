@@ -1,0 +1,21 @@
+body {
+  margin: 0; padding: 0;
+}
+
+.webcam {
+  float: left;
+  width: 50%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.webcam h3 {
+  display: none;
+  font-size: 48px;
+}
+
+.webcam:hover h3 {
+  display: block;
+}
